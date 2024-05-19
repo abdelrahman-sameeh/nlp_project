@@ -47,24 +47,24 @@ tree(Chinking): (S
   Mr/NNP
   Ahmed/NNP
   Ali/NNP
-  manager/NN
-  school/NN
-  school/NN
+  (NP manager/NN)
+  (NP school/NN)
+  (NP school/NN)
   Egypt/NNP
   Excellent/NNP
-  school/NN
-  supportive/NN
-  community/NN
+  (NP school/NN)
+  (NP supportive/NN)
+  (NP community/NN)
   teacher/CC
-  care/NN
-  school/NN
-  environment/NN
+  (NP care/NN)
+  (NP school/NN)
+  (NP environment/NN)
   (NP safe/JJ welcoming/NN)
-  learn/NN
-  program/NN
+  (NP learn/NN)
+  (NP program/NN)
   (NP strong/JJ plenty/NN)
-  chance/NN
-  student/NN
+  (NP chance/NN)
+  (NP student/NN)
   get/VB
   involve/RB
   (NP various/JJ activity/NN)
