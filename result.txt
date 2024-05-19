@@ -1,0 +1,88 @@
+removed_punctuations: in 10101999 Mr Ahmed Ali is a manager of this school 
+this school in Egypt Excellent school with a supportive community 
+The teachers are caring and the school environment is safe and welcoming 
+The learning programs are strong and there are plenty of chances for students 
+to get involved in various activities highly recommend
+
+filtered_tokens: ['10101999', 'Mr', 'Ahmed', 'Ali', 'manager', 'school', 'school', 'Egypt', 'Excellent', 'school', 'supportive', 'community', 'teachers', 'caring', 'school', 'environment', 'safe', 'welcoming', 'learning', 'programs', 'strong', 'plenty', 'chances', 'students', 'get', 'involved', 'various', 'activities', 'highly', 'recommend']
+
+stemmed_tokens: ['10101999', 'mr', 'ahm', 'ali', 'manag', 'school', 'school', 'egypt', 'excel', 'school', 'support', 'commun', 'teacher', 'care', 'school', 'environ', 'safe', 'welcom', 'learn', 'program', 'strong', 'plenti', 'chanc', 'student', 'get', 'involv', 'variou', 'activ', 'highli', 'recommend']
+
+lemmatized_tokens: ['10101999', 'Mr', 'Ahmed', 'Ali', 'manager', 'school', 'school', 'Egypt', 'Excellent', 'school', 'supportive', 'community', 'teacher', 'care', 'school', 'environment', 'safe', 'welcoming', 'learn', 'program', 'strong', 'plenty', 'chance', 'student', 'get', 'involve', 'various', 'activity', 'highly', 'recommend']
+
+pos_tags: [('10101999', 'CD'), ('Mr', 'NNP'), ('Ahmed', 'NNP'), ('Ali', 'NNP'), ('manager', 'NN'), ('school', 'NN'), ('school', 'NN'), ('Egypt', 'NNP'), ('Excellent', 'NNP'), ('school', 'NN'), ('supportive', 'NN'), ('community', 'NN'), ('teacher', 'CC'), ('care', 'NN'), ('school', 'NN'), ('environment', 'NN'), ('safe', 'JJ'), ('welcoming', 'NN'), ('learn', 'NN'), ('program', 'NN'), ('strong', 'JJ'), ('plenty', 'NN'), ('chance', 'NN'), ('student', 'NN'), ('get', 'VB'), ('involve', 'RB'), ('various', 'JJ'), ('activity', 'NN'), ('highly', 'RB'), ('recommend', 'VB')]
+
+chunked: (S
+  10101999/CD
+  Mr/NNP
+  (PERSON Ahmed/NNP Ali/NNP)
+  manager/NN
+  school/NN
+  school/NN
+  (PERSON Egypt/NNP Excellent/NNP)
+  school/NN
+  supportive/NN
+  community/NN
+  teacher/CC
+  care/NN
+  school/NN
+  environment/NN
+  safe/JJ
+  welcoming/NN
+  learn/NN
+  program/NN
+  strong/JJ
+  plenty/NN
+  chance/NN
+  student/NN
+  get/VB
+  involve/RB
+  various/JJ
+  activity/NN
+  highly/RB
+  recommend/VB)
+
+tree(Chinking): (S
+  10101999/CD
+  Mr/NNP
+  Ahmed/NNP
+  Ali/NNP
+  manager/NN
+  school/NN
+  school/NN
+  Egypt/NNP
+  Excellent/NNP
+  school/NN
+  supportive/NN
+  community/NN
+  teacher/CC
+  care/NN
+  school/NN
+  environment/NN
+  (NP safe/JJ welcoming/NN)
+  learn/NN
+  program/NN
+  (NP strong/JJ plenty/NN)
+  chance/NN
+  student/NN
+  get/VB
+  involve/RB
+  (NP various/JJ activity/NN)
+  highly/RB
+  recommend/VB)
+
+ner: [('10101999', 'DATE'), ('Ahmed Ali', 'PERSON'), ('Egypt', 'GPE')]
+
+dependencies: [('10101999', 'nummod', 'school'), ('Mr', 'compound', 'Ali'), ('Ahmed', 'compound', 'Ali'), ('Ali', 'compound', 'school'), ('manager', 'compound', 'school'), ('school', 'compound', 'school'), ('school', 'nmod', 'programs'), ('Egypt', 'compound', 'Excellent'), ('Excellent', 'compound', 'school'), ('school', 'compound', 'teachers'), ('supportive', 'amod', 'community'), ('community', 'compound', 'teachers'), ('teachers', 'appos', 'school'), ('caring', 'amod', 'environment'), ('school', 'compound', 'environment'), ('environment', 'appos', 'school'), ('safe', 'amod', 'welcoming'), ('welcoming', 'amod', 'programs'), ('learning', 'amod', 'programs'), ('programs', 'nsubj', 'chances'), ('strong', 'amod', 'chances'), ('plenty', 'amod', 'chances'), ('chances', 'nsubj', 'recommend'), ('students', 'nsubjpass', 'involved'), ('get', 'auxpass', 'involved'), ('involved', 'relcl', 'chances'), ('various', 'amod', 'activities'), ('activities', 'dobj', 'involved'), ('highly', 'advmod', 'recommend'), ('recommend', 'ROOT', 'recommend')]
+
+matches: [(2179159448827998755, 5, 6), (2179159448827998755, 6, 7), (2179159448827998755, 9, 10), (2179159448827998755, 14, 15)]
+
+vectorized_text: [[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 1 1 1 1 1 1]]
+
+tfidf_vectorized_text: [[0.15430335 0.15430335 0.15430335 0.15430335 0.15430335 0.15430335
+  0.15430335 0.15430335 0.15430335 0.15430335 0.15430335 0.15430335
+  0.15430335 0.15430335 0.15430335 0.15430335 0.15430335 0.15430335
+  0.15430335 0.15430335 0.6172134  0.15430335 0.15430335 0.15430335
+  0.15430335 0.15430335 0.15430335]]
+
+################################################################################
