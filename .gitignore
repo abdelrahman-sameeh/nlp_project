@@ -1,3 +1,4 @@
 generate_dataset.py
 venv/
 __pycache__
+run.sh
