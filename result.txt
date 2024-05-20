@@ -1,27 +1,27 @@
-stop words= {'each', 'very', 'what', 'than', 'my', 'both', 'wouldn', 's', 'why', 'them', 'not', 'm', 'under', "you're", 'through', 'i', 'all', 'by', 'down', 'those', 'against', 'doing', 'on', 'some', 'o', 've', 'below', 'was', 'shouldn', 'there', 'won', 'here', 'll', 'into', "that'll", 'hadn', "mightn't", 'we', 'theirs', 'you', 'be', 'aren', 'at', "mustn't", "shouldn't", 'have', "didn't", 'above', "isn't", 'being', 'herself', 'myself', 'then', 'when', 'and', 'itself', 'while', 'until', "you've", 'd', 'this', "should've", 'needn', 'up', 'if', "doesn't", "needn't", 'out', 'yourself', 'yourselves', 'more', 'with', 'most', 'mightn', 'once', "wasn't", 'ourselves', 'she', 'between', 'has', 'because', 'its', 'which', 'an', 'his', "hadn't", 'doesn', 'too', 'had', 'mustn', 'before', 'weren', 'where', 'any', 'these', 'they', 'few', "aren't", "it's", 'or', 't', 'about', 'nor', 'to', 'but', 'for', 'over', 'off', 'him', 'from', 'a', "weren't", 'your', 'during', 'further', 'how', "you'll", 'shan', 'does', "wouldn't", 'such', 'again', 'ain', 'been', 'do', 'ma', "she's", "couldn't", 'no', 'their', 'whom', 'the', 'don', 'only', 'her', 'as', 'yours', 'it', 'themselves', 'ours', 'can', "shan't", 'in', "hasn't", 'our', 'y', 'that', 're', 'didn', 'am', 'now', 'hasn', 'hers', 'will', 'is', 'wasn', "won't", "haven't", 'of', 'couldn', 'after', 'just', 'other', 'are', "you'd", 'were', 'did', 'who', 'haven', 'he', 'so', 'me', 'having', 'should', 'own', 'himself', 'isn', "don't", 'same'}
+stop words= {'own', 'why', 'to', 'does', 'once', 'a', 'weren', 'my', 'an', 'about', "don't", 'during', 'there', 'very', 'itself', 'too', "aren't", 'ours', 'should', 'them', 'how', 'be', 'out', "you'll", 'in', 't', 'so', 'are', 'above', 'hers', 'its', 'doesn', 'were', "needn't", "couldn't", 'herself', "she's", 'ma', "wasn't", "isn't", 'again', 'yours', 'until', "didn't", "hadn't", "mightn't", 'had', 'haven', 'most', "you've", 'after', "mustn't", "wouldn't", 'of', 'no', 'didn', 'himself', 'doing', 'what', "hasn't", 'where', 'here', 'him', 'it', 'ain', 'have', 'between', 'but', 'our', 'her', 'don', 'with', 'you', 'did', "it's", 'ourselves', 'by', 'before', 'not', 'same', 'm', 'd', 'o', 'through', 'was', 'the', 'nor', 'which', 'from', 'now', 'needn', 'down', 'myself', 'on', 'hasn', 'those', "shouldn't", 'this', 'against', 're', 'each', 'yourself', "doesn't", "weren't", 'wouldn', 'over', 'some', 'has', 'off', 'into', 'shan', 'any', 'these', 'while', "you're", 'being', 'me', 'do', 'theirs', 'up', 'll', 'few', 'their', 'at', 'hadn', 've', 'then', 'shouldn', 'wasn', 'we', 's', 'your', 'both', 'is', 'they', 'such', 'when', 'and', 'below', 'whom', 'for', 'couldn', "shan't", 'will', 'she', 'he', 'or', 'only', 'who', "won't", "should've", "you'd", 'just', 'isn', "haven't", 'themselves', "that'll", 'his', 'aren', 'mightn', 'than', 'all', 'other', 'can', 'under', 'won', 'as', 'if', 'having', 'i', 'y', 'mustn', 'further', 'more', 'that', 'because', 'yourselves', 'am', 'been'}
 
  ############################################################ 
 
-removed_punctuations: in 10101999 Mr Ahmed Ali is a manager of this school 
+removed_punctuations: in 10101999 Mr Ahmed Ali is a manager of this School 
 this school in Egypt school with a supportive community 
 The teachers are caring and the school environment is safe and welcoming 
 The learning programs are strong and there are plenty of chances for students 
 to get involved in various activities highly recommend
 
-filtered_tokens: ['10101999', 'Mr', 'Ahmed', 'Ali', 'manager', 'school', 'school', 'Egypt', 'school', 'supportive', 'community', 'teachers', 'caring', 'school', 'environment', 'safe', 'welcoming', 'learning', 'programs', 'strong', 'plenty', 'chances', 'students', 'get', 'involved', 'various', 'activities', 'highly', 'recommend']
+filtered_tokens: ['10101999', 'Mr', 'Ahmed', 'Ali', 'manager', 'School', 'school', 'Egypt', 'school', 'supportive', 'community', 'teachers', 'caring', 'school', 'environment', 'safe', 'welcoming', 'learning', 'programs', 'strong', 'plenty', 'chances', 'students', 'get', 'involved', 'various', 'activities', 'highly', 'recommend']
 
 stemmed_tokens: ['10101999', 'mr', 'ahm', 'ali', 'manag', 'school', 'school', 'egypt', 'school', 'support', 'commun', 'teacher', 'care', 'school', 'environ', 'safe', 'welcom', 'learn', 'program', 'strong', 'plenti', 'chanc', 'student', 'get', 'involv', 'variou', 'activ', 'highli', 'recommend']
 
-lemmatized_tokens: ['10101999', 'Mr', 'Ahmed', 'Ali', 'manager', 'school', 'school', 'Egypt', 'school', 'supportive', 'community', 'teacher', 'care', 'school', 'environment', 'safe', 'welcoming', 'learn', 'program', 'strong', 'plenty', 'chance', 'student', 'get', 'involve', 'various', 'activity', 'highly', 'recommend']
+lemmatized_tokens: ['10101999', 'Mr', 'Ahmed', 'Ali', 'manager', 'School', 'school', 'Egypt', 'school', 'supportive', 'community', 'teacher', 'care', 'school', 'environment', 'safe', 'welcoming', 'learn', 'program', 'strong', 'plenty', 'chance', 'student', 'get', 'involve', 'various', 'activity', 'highly', 'recommend']
 
-pos_tags: [('10101999', 'CD'), ('Mr', 'NNP'), ('Ahmed', 'NNP'), ('Ali', 'NNP'), ('manager', 'NN'), ('school', 'NN'), ('school', 'NN'), ('Egypt', 'NNP'), ('school', 'NN'), ('supportive', 'NN'), ('community', 'NN'), ('teacher', 'CC'), ('care', 'NN'), ('school', 'NN'), ('environment', 'NN'), ('safe', 'JJ'), ('welcoming', 'NN'), ('learn', 'NN'), ('program', 'NN'), ('strong', 'JJ'), ('plenty', 'NN'), ('chance', 'NN'), ('student', 'NN'), ('get', 'VB'), ('involve', 'RB'), ('various', 'JJ'), ('activity', 'NN'), ('highly', 'RB'), ('recommend', 'VB')]
+pos_tags: [('10101999', 'CD'), ('Mr', 'NNP'), ('Ahmed', 'NNP'), ('Ali', 'NNP'), ('manager', 'NN'), ('School', 'NNP'), ('school', 'NN'), ('Egypt', 'NNP'), ('school', 'NN'), ('supportive', 'NN'), ('community', 'NN'), ('teacher', 'CC'), ('care', 'NN'), ('school', 'NN'), ('environment', 'NN'), ('safe', 'JJ'), ('welcoming', 'NN'), ('learn', 'NN'), ('program', 'NN'), ('strong', 'JJ'), ('plenty', 'NN'), ('chance', 'NN'), ('student', 'NN'), ('get', 'VB'), ('involve', 'RB'), ('various', 'JJ'), ('activity', 'NN'), ('highly', 'RB'), ('recommend', 'VB')]
 
 chunked: (S
   10101999/CD
   Mr/NNP
   (PERSON Ahmed/NNP Ali/NNP)
   manager/NN
-  school/NN
+  (PERSON School/NNP)
   school/NN
   (GPE Egypt/NNP)
   school/NN
@@ -52,7 +52,7 @@ tree(Chinking): (S
   Ahmed/NNP
   Ali/NNP
   (NP manager/NN)
-  (NP school/NN)
+  School/NNP
   (NP school/NN)
   Egypt/NNP
   (NP school/NN)
@@ -76,7 +76,7 @@ tree(Chinking): (S
 
 ner: [('10101999', 'DATE'), ('Ahmed Ali', 'PERSON'), ('Egypt', 'GPE')]
 
-dependencies: [('10101999', 'nummod', 'teachers'), ('Mr', 'compound', 'Ali'), ('Ahmed', 'compound', 'Ali'), ('Ali', 'compound', 'school'), ('manager', 'compound', 'school'), ('school', 'compound', 'school'), ('school', 'compound', 'teachers'), ('Egypt', 'compound', 'school'), ('school', 'nmod', 'teachers'), ('supportive', 'amod', 'community'), ('community', 'compound', 'teachers'), ('teachers', 'nsubj', 'welcoming'), ('caring', 'amod', 'environment'), ('school', 'compound', 'environment'), ('environment', 'appos', 'teachers'), ('safe', 'amod', 'welcoming'), ('welcoming', 'nsubj', 'recommend'), ('learning', 'amod', 'programs'), ('programs', 'dobj', 'welcoming'), ('strong', 'xcomp', 'welcoming'), ('plenty', 'amod', 'chances'), ('chances', 'dobj', 'welcoming'), ('students', 'nsubjpass', 'involved'), ('get', 'auxpass', 'involved'), ('involved', 'ccomp', 'welcoming'), ('various', 'amod', 'activities'), ('activities', 'dobj', 'involved'), ('highly', 'advmod', 'recommend'), ('recommend', 'ROOT', 'recommend')]
+dependencies: [('10101999', 'nummod', 'teachers'), ('Mr', 'compound', 'Ali'), ('Ahmed', 'compound', 'Ali'), ('Ali', 'compound', 'manager'), ('manager', 'compound', 'School'), ('School', 'compound', 'school'), ('school', 'compound', 'teachers'), ('Egypt', 'compound', 'school'), ('school', 'nmod', 'teachers'), ('supportive', 'amod', 'community'), ('community', 'compound', 'teachers'), ('teachers', 'nsubj', 'welcoming'), ('caring', 'amod', 'environment'), ('school', 'compound', 'environment'), ('environment', 'appos', 'teachers'), ('safe', 'amod', 'welcoming'), ('welcoming', 'nsubj', 'recommend'), ('learning', 'amod', 'programs'), ('programs', 'dobj', 'welcoming'), ('strong', 'xcomp', 'welcoming'), ('plenty', 'amod', 'chances'), ('chances', 'dobj', 'welcoming'), ('students', 'nsubjpass', 'involved'), ('get', 'auxpass', 'involved'), ('involved', 'ccomp', 'welcoming'), ('various', 'amod', 'activities'), ('activities', 'dobj', 'involved'), ('highly', 'advmod', 'recommend'), ('recommend', 'ROOT', 'recommend')]
 
 matches: [(2179159448827998755, 5, 6), (2179159448827998755, 6, 7), (2179159448827998755, 8, 9), (2179159448827998755, 13, 14)]
 

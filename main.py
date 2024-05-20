@@ -57,8 +57,12 @@ def process_text(text):
     # 10. Rule-Based Matching
     matcher = Matcher(nlp.vocab)
     pattern = [{"LOWER": "school"}]
-    matcher.add("SchoolPattern", [pattern])
-    matches = matcher(doc)
+    matches = f'No results match this pattern {pattern}'
+    try:
+        matcher.add("SchoolPattern", [pattern])
+        matches = matcher(doc)
+    except:
+        pass
 
     # 11. Vectorization
     vectorizer = CountVectorizer()
