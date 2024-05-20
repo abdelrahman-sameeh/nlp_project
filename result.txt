@@ -1,16 +1,20 @@
+stop words= {'each', 'very', 'what', 'than', 'my', 'both', 'wouldn', 's', 'why', 'them', 'not', 'm', 'under', "you're", 'through', 'i', 'all', 'by', 'down', 'those', 'against', 'doing', 'on', 'some', 'o', 've', 'below', 'was', 'shouldn', 'there', 'won', 'here', 'll', 'into', "that'll", 'hadn', "mightn't", 'we', 'theirs', 'you', 'be', 'aren', 'at', "mustn't", "shouldn't", 'have', "didn't", 'above', "isn't", 'being', 'herself', 'myself', 'then', 'when', 'and', 'itself', 'while', 'until', "you've", 'd', 'this', "should've", 'needn', 'up', 'if', "doesn't", "needn't", 'out', 'yourself', 'yourselves', 'more', 'with', 'most', 'mightn', 'once', "wasn't", 'ourselves', 'she', 'between', 'has', 'because', 'its', 'which', 'an', 'his', "hadn't", 'doesn', 'too', 'had', 'mustn', 'before', 'weren', 'where', 'any', 'these', 'they', 'few', "aren't", "it's", 'or', 't', 'about', 'nor', 'to', 'but', 'for', 'over', 'off', 'him', 'from', 'a', "weren't", 'your', 'during', 'further', 'how', "you'll", 'shan', 'does', "wouldn't", 'such', 'again', 'ain', 'been', 'do', 'ma', "she's", "couldn't", 'no', 'their', 'whom', 'the', 'don', 'only', 'her', 'as', 'yours', 'it', 'themselves', 'ours', 'can', "shan't", 'in', "hasn't", 'our', 'y', 'that', 're', 'didn', 'am', 'now', 'hasn', 'hers', 'will', 'is', 'wasn', "won't", "haven't", 'of', 'couldn', 'after', 'just', 'other', 'are', "you'd", 'were', 'did', 'who', 'haven', 'he', 'so', 'me', 'having', 'should', 'own', 'himself', 'isn', "don't", 'same'}
+
+ ############################################################ 
+
 removed_punctuations: in 10101999 Mr Ahmed Ali is a manager of this school 
-this school in Egypt Excellent school with a supportive community 
+this school in Egypt school with a supportive community 
 The teachers are caring and the school environment is safe and welcoming 
 The learning programs are strong and there are plenty of chances for students 
 to get involved in various activities highly recommend
 
-filtered_tokens: ['10101999', 'Mr', 'Ahmed', 'Ali', 'manager', 'school', 'school', 'Egypt', 'Excellent', 'school', 'supportive', 'community', 'teachers', 'caring', 'school', 'environment', 'safe', 'welcoming', 'learning', 'programs', 'strong', 'plenty', 'chances', 'students', 'get', 'involved', 'various', 'activities', 'highly', 'recommend']
+filtered_tokens: ['10101999', 'Mr', 'Ahmed', 'Ali', 'manager', 'school', 'school', 'Egypt', 'school', 'supportive', 'community', 'teachers', 'caring', 'school', 'environment', 'safe', 'welcoming', 'learning', 'programs', 'strong', 'plenty', 'chances', 'students', 'get', 'involved', 'various', 'activities', 'highly', 'recommend']
 
-stemmed_tokens: ['10101999', 'mr', 'ahm', 'ali', 'manag', 'school', 'school', 'egypt', 'excel', 'school', 'support', 'commun', 'teacher', 'care', 'school', 'environ', 'safe', 'welcom', 'learn', 'program', 'strong', 'plenti', 'chanc', 'student', 'get', 'involv', 'variou', 'activ', 'highli', 'recommend']
+stemmed_tokens: ['10101999', 'mr', 'ahm', 'ali', 'manag', 'school', 'school', 'egypt', 'school', 'support', 'commun', 'teacher', 'care', 'school', 'environ', 'safe', 'welcom', 'learn', 'program', 'strong', 'plenti', 'chanc', 'student', 'get', 'involv', 'variou', 'activ', 'highli', 'recommend']
 
-lemmatized_tokens: ['10101999', 'Mr', 'Ahmed', 'Ali', 'manager', 'school', 'school', 'Egypt', 'Excellent', 'school', 'supportive', 'community', 'teacher', 'care', 'school', 'environment', 'safe', 'welcoming', 'learn', 'program', 'strong', 'plenty', 'chance', 'student', 'get', 'involve', 'various', 'activity', 'highly', 'recommend']
+lemmatized_tokens: ['10101999', 'Mr', 'Ahmed', 'Ali', 'manager', 'school', 'school', 'Egypt', 'school', 'supportive', 'community', 'teacher', 'care', 'school', 'environment', 'safe', 'welcoming', 'learn', 'program', 'strong', 'plenty', 'chance', 'student', 'get', 'involve', 'various', 'activity', 'highly', 'recommend']
 
-pos_tags: [('10101999', 'CD'), ('Mr', 'NNP'), ('Ahmed', 'NNP'), ('Ali', 'NNP'), ('manager', 'NN'), ('school', 'NN'), ('school', 'NN'), ('Egypt', 'NNP'), ('Excellent', 'NNP'), ('school', 'NN'), ('supportive', 'NN'), ('community', 'NN'), ('teacher', 'CC'), ('care', 'NN'), ('school', 'NN'), ('environment', 'NN'), ('safe', 'JJ'), ('welcoming', 'NN'), ('learn', 'NN'), ('program', 'NN'), ('strong', 'JJ'), ('plenty', 'NN'), ('chance', 'NN'), ('student', 'NN'), ('get', 'VB'), ('involve', 'RB'), ('various', 'JJ'), ('activity', 'NN'), ('highly', 'RB'), ('recommend', 'VB')]
+pos_tags: [('10101999', 'CD'), ('Mr', 'NNP'), ('Ahmed', 'NNP'), ('Ali', 'NNP'), ('manager', 'NN'), ('school', 'NN'), ('school', 'NN'), ('Egypt', 'NNP'), ('school', 'NN'), ('supportive', 'NN'), ('community', 'NN'), ('teacher', 'CC'), ('care', 'NN'), ('school', 'NN'), ('environment', 'NN'), ('safe', 'JJ'), ('welcoming', 'NN'), ('learn', 'NN'), ('program', 'NN'), ('strong', 'JJ'), ('plenty', 'NN'), ('chance', 'NN'), ('student', 'NN'), ('get', 'VB'), ('involve', 'RB'), ('various', 'JJ'), ('activity', 'NN'), ('highly', 'RB'), ('recommend', 'VB')]
 
 chunked: (S
   10101999/CD
@@ -19,7 +23,7 @@ chunked: (S
   manager/NN
   school/NN
   school/NN
-  (PERSON Egypt/NNP Excellent/NNP)
+  (GPE Egypt/NNP)
   school/NN
   supportive/NN
   community/NN
@@ -51,7 +55,6 @@ tree(Chinking): (S
   (NP school/NN)
   (NP school/NN)
   Egypt/NNP
-  Excellent/NNP
   (NP school/NN)
   (NP supportive/NN)
   (NP community/NN)
@@ -73,16 +76,16 @@ tree(Chinking): (S
 
 ner: [('10101999', 'DATE'), ('Ahmed Ali', 'PERSON'), ('Egypt', 'GPE')]
 
-dependencies: [('10101999', 'nummod', 'school'), ('Mr', 'compound', 'Ali'), ('Ahmed', 'compound', 'Ali'), ('Ali', 'compound', 'school'), ('manager', 'compound', 'school'), ('school', 'compound', 'school'), ('school', 'nmod', 'programs'), ('Egypt', 'compound', 'Excellent'), ('Excellent', 'compound', 'school'), ('school', 'compound', 'teachers'), ('supportive', 'amod', 'community'), ('community', 'compound', 'teachers'), ('teachers', 'appos', 'school'), ('caring', 'amod', 'environment'), ('school', 'compound', 'environment'), ('environment', 'appos', 'school'), ('safe', 'amod', 'welcoming'), ('welcoming', 'amod', 'programs'), ('learning', 'amod', 'programs'), ('programs', 'nsubj', 'chances'), ('strong', 'amod', 'chances'), ('plenty', 'amod', 'chances'), ('chances', 'nsubj', 'recommend'), ('students', 'nsubjpass', 'involved'), ('get', 'auxpass', 'involved'), ('involved', 'relcl', 'chances'), ('various', 'amod', 'activities'), ('activities', 'dobj', 'involved'), ('highly', 'advmod', 'recommend'), ('recommend', 'ROOT', 'recommend')]
+dependencies: [('10101999', 'nummod', 'teachers'), ('Mr', 'compound', 'Ali'), ('Ahmed', 'compound', 'Ali'), ('Ali', 'compound', 'school'), ('manager', 'compound', 'school'), ('school', 'compound', 'school'), ('school', 'compound', 'teachers'), ('Egypt', 'compound', 'school'), ('school', 'nmod', 'teachers'), ('supportive', 'amod', 'community'), ('community', 'compound', 'teachers'), ('teachers', 'nsubj', 'welcoming'), ('caring', 'amod', 'environment'), ('school', 'compound', 'environment'), ('environment', 'appos', 'teachers'), ('safe', 'amod', 'welcoming'), ('welcoming', 'nsubj', 'recommend'), ('learning', 'amod', 'programs'), ('programs', 'dobj', 'welcoming'), ('strong', 'xcomp', 'welcoming'), ('plenty', 'amod', 'chances'), ('chances', 'dobj', 'welcoming'), ('students', 'nsubjpass', 'involved'), ('get', 'auxpass', 'involved'), ('involved', 'ccomp', 'welcoming'), ('various', 'amod', 'activities'), ('activities', 'dobj', 'involved'), ('highly', 'advmod', 'recommend'), ('recommend', 'ROOT', 'recommend')]
 
-matches: [(2179159448827998755, 5, 6), (2179159448827998755, 6, 7), (2179159448827998755, 9, 10), (2179159448827998755, 14, 15)]
+matches: [(2179159448827998755, 5, 6), (2179159448827998755, 6, 7), (2179159448827998755, 8, 9), (2179159448827998755, 13, 14)]
 
-vectorized_text: [[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 1 1 1 1 1 1]]
+vectorized_text: [[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 1 1 1 1 1 1]]
 
-tfidf_vectorized_text: [[0.15430335 0.15430335 0.15430335 0.15430335 0.15430335 0.15430335
-  0.15430335 0.15430335 0.15430335 0.15430335 0.15430335 0.15430335
-  0.15430335 0.15430335 0.15430335 0.15430335 0.15430335 0.15430335
-  0.15430335 0.15430335 0.6172134  0.15430335 0.15430335 0.15430335
-  0.15430335 0.15430335 0.15430335]]
+tfidf_vectorized_text: [[0.15617376 0.15617376 0.15617376 0.15617376 0.15617376 0.15617376
+  0.15617376 0.15617376 0.15617376 0.15617376 0.15617376 0.15617376
+  0.15617376 0.15617376 0.15617376 0.15617376 0.15617376 0.15617376
+  0.15617376 0.62469505 0.15617376 0.15617376 0.15617376 0.15617376
+  0.15617376 0.15617376]]
 
 ################################################################################
